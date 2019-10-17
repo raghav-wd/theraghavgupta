@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#252627" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <style>
+        body {
+            background: #252627 no-repeat fixed 80% 0%;
+            animation: dropein 1s cubic-bezier(.56, 1.42, .77, 1.41);
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes dropein {
+            0% {
+                /* background: #252627 url('rlogo.png') no-repeat fixed 80% 80%; */
+                opacity: 0;
+            }
+
+            100% {
+                background: #252627 url('rlogo.png') no-repeat fixed 80% 80%;
+                opacity: 1;
+            }
+        }
+
+        @media(max-width: 580px) {
+            body {
+                background: #252627 no-repeat fixed 80% 0%;
+                animation: dropein 1s cubic-bezier(.56, 1.42, .77, 1.41);
+                animation-fill-mode: forwards;
+            }
+
+            @keyframes dropein {
+                0% {
+                    /* background: #252627 url('rlogo.png') no-repeat fixed 80% 80%; */
+                    opacity: 0;
+                }
+
+                100% {
+                    background: #252627 url('rlogo.png') no-repeat fixed 80% -40%;
+                    opacity: 1;
+                }
+            }
+        }
+    </style>
+
+</head>
+
+
+
+
+<body>
+    <div class="curtain"></div>
+    <div class="page">
+        <div class="sidenav">
+            <a class="icons" data-href="/"><i class="fa fa-infinity"></i></a>
+            <a class="icons" data-href="about/"><i class="fa fa-user"></i></a>
+            <a class="icons" data-href="skills/"><i class="fa fa-gear"></i></a>
+            <a class="icons" data-href="projects/"><i class="fa fa-eye"></i></a>
+            <a class="icons" data-href="contact me/"><i class="fa fa-envelope"></i></a>
+
+            <a style="text-decoration: none;" href="https://www.instagram.com/r.a.g.h.a.v_/" target="_link"><i class="icons fab fa-instagram"></i></a>
+        </div>
+
+        <div class="move-60">
+            <div class="cnt1">
+                <span class="txt-type intro" data-wait="3000" data-words='["Hi, <br/>Im Raghav<br/>Web Developer"]'></span>
+                <div class="sub-des">
+                    Full Stack Developer
+                </div>
+                <div class="conctact-me-button"><a style="text-decoration: none; color: inherit;" href="contact me/">CONTACT
+                        ME</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay">
+
+        <div class="loader-cnt">
+            <div class="center">
+                Raghav
+                <br />
+                Raghav is thinking
+                <div class="loader"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="main.js">
+
+    </script>
+
+
+</body>
+
+</html>

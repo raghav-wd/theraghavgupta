@@ -1,0 +1,63 @@
+.intro {
+    color: #08fdd8;
+}
+
+.cnt1 {
+    position: relative;
+    /* top: 34vh; */
+    left: 50px;
+}
+
+@media(max-width: 500px) {
+    .skills {
+        width: 200px;
+    }
+}
+
+.skills {
+    color: white;
+    font-size: 14px;
+    font-family: poppins;
+    overflow-y: scroll;
+    height: 550px;
+}
+
+.border {
+    font-size: 16px;
+}
+
+skill {
+    display: block;
+    margin-left: 10px;
+}
+skill::before {
+   content: "-" ;
+}
+
+.scene {
+    position: absolute;
+    top: 10vh;
+    left: 80vh;
+}
+
+@media(max-width: 762px){
+    .scene {
+        position: absolute;
+        top: 20vh;
+        left: 30vh;
+    }
+    .skills {
+        height: 500px;
+    }
+}
+
+@media(max-width: 500px){
+    .scene{
+        position: absolute;
+        top: 58vh;
+        left: 8vh;
+    }
+    .skills {
+        height: 300px;
+    }
+}

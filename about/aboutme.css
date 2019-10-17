@@ -1,0 +1,23 @@
+.intro {
+    color: #08fdd8;
+}
+.aboutme {
+    color: white;
+    font-size: 12px;
+    font-family: poppins;
+}
+
+@media(max-width: 762px) {
+    .aboutme {
+        width: 230px;
+    }
+}
+
+.aboutme .large {
+    font-size: 15px;
+}
+
+.aboutme .firstword {
+    font-size: 22px;
+}
+

@@ -1,0 +1,91 @@
+.intro {
+    color: #08fdd8;
+}
+
+.contact-me {
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 8px;
+    font-family: poppins;
+    max-width: 500px;
+}
+
+.webdev {
+    color: white;
+    font-size: 32px;
+    font-family: fantasy;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+
+.webdevcnt {
+    text-align: right;
+}
+
+
+@media(min-width: 950px){
+    .webdevcnt {
+        text-align: center;
+    }
+    .webdev {
+        font-size: 48px;
+    }
+}
+
+.cnt2 {
+    background-color: #08fdd8;
+    height: 100vh;
+}
+
+@media(max-width: 762px){
+    .contact-me {
+        max-width: 380px;
+    }
+}
+
+@media(max-width: 500px){
+    .contact-me {
+        max-width: 250px;
+    }
+    .webdev {
+        font-size: 28px;
+    }
+}
+
+.contact-me .small {
+    font-size: 12px;
+    color: rgb(194, 190, 190);
+}
+
+.contact-me {
+    height: 550px;
+    overflow-y: scroll;
+    padding-bottom: 200px;
+}
+
+input, textarea {
+    background-color: #37393b;
+    padding: 14px 6px;
+    width: 100%;
+    border: none;
+    margin: 4px;
+    outline-color: #08fdd8;
+}
+
+input[name*="message"] {
+    height: 200px;
+}
+
+input[name*="reach me"] {
+    background-color: #08fdd8;
+}
+
+.call a{
+    text-decoration: none;
+    color: #08fdd8;
+}
+
+.call .white {
+    color: #ffffff;
+}
